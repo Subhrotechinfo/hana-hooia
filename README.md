@@ -1,7 +1,7 @@
 ## :trollface: Project Assignments Files
-```
+
  :secret: Each and Every files consist of the code and respective.
-```
+
 ### Tech Stack :children_crossing:
 - Javascript ES6 versions and JSON raw files.
 
