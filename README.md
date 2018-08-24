@@ -8,7 +8,7 @@
 ##### How to run :runner:
 
 - clone the repository run `git clone repoUrl` by using command prompt [git](https://git-scm.com/) .
-- run using [node](https://nodejs.org/en/)// [nodemon](https://www.npmjs.com/package/nodemon) `respective .js files`.
+- run using [node](https://nodejs.org/en/) / [nodemon](https://www.npmjs.com/package/nodemon) `respective .js files`.
 
 ### Author
 :smiley: | Subhro Chatterjee | :copyright: | 2018    
