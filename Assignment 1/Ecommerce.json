@@ -1,0 +1,212 @@
+/*  Problem Statement -- 1 */
+/* This file consist of the dataSet for a standard Ecommerce website */
+
+{
+  "Customer Information":[
+    {
+      "customerId":"01",
+      "Name":"Subhro Chatterjee",
+      "firstName":"Subhro",
+      "lastName":"Chatterjee",
+      "email":"subhro07@gmail.com",
+      "address":{
+        "houseNumber":"N0 102",
+        "Street":"AECS Layout",
+        "landmark":"Near Hanuman Temple",
+        "state":"Karnataka",
+        "city":"Bangalore",
+        "pin":"560039"
+      },
+      "mobile":"9876543210"
+    },
+    {
+      "customerId":"02",
+      "Name":"Mike Taylor",
+      "firstName":"Mike",
+      "lastName":"Taylor",
+      "email":"mike@gmail.com",
+      "address":{
+        "houseNumber":"65th Ave",
+        "Street":"Agusta St",
+        "landmark":"Blackwell Stamper Way Motel",
+        "state":"USA",
+        "city":"Philadelphia",
+        "pin":"19019"
+      },
+      "mobile":"0123657896"
+    }
+  ],
+  "ProductsCatalog":[
+    {
+        "Mobiles":
+            {
+              "BrandName":
+              {
+                "Redmi":
+                  [
+                    {
+                      "varient":"Redmi 5",
+                      "mobileId":"#0001",
+                      "productDescription":[{
+                            "OS":	"Android",
+                            "RAM":"3 GB",
+                            "ROM":"16 GB",
+                            "Display":"5.5'inches ",
+                            "Color":["Blue","Black","Gold"],
+                            "Connectivity technologies"	: "2G, GSM, 3G, WCDMA, 4G LTE, FDD, TDD",
+                            "Batteries" :	"1 Lithium ion batteries required. (included)",
+                            "Weight":	"191 Grams",
+                            "Special features":	"Dual SIM, GPS, Music Player, Video Player, Accelerometer, Fingerprint sensor, Proximity sensor"
+                        }],
+                        "Price":"Rs 8000"
+                    },
+                    {
+                      "varient":"Redmi note 5",
+                      "mobileId":"#0002",
+                      "productDescription":[{
+                            "OS":	"Android",
+                            "RAM":"4 GB",
+                            "ROM":"16 GB / 32 GB",
+                            "Display":"5.5'inches ",
+                            "Color":["Black","Gold"],
+                            "Connectivity technologies"	: "2G, GSM, 3G, WCDMA, 4G LTE, FDD, TDD",
+                            "Batteries" :	"1 Lithium ion batteries required. (included)",
+                            "Weight":	"191 Grams",
+                            "Special features":	"Dual SIM, GPS, Music Player, Video Player, Accelerometer, Fingerprint sensor, Proximity sensor"
+                        }],
+                        "Price":"Rs 10000"
+                    },
+                    {
+                      "varient":"Redmi A2",
+                      "mobileId":"#0003",
+                      "productDescription":[{
+                        "OS":	"Android",
+                        "RAM":"3 GB",
+                        "ROM":"32 GB",
+                        "Display":"5.7'inches ",
+                        "Color":["Gold"],
+                        "Connectivity technologies"	: "2G, GSM, 3G, WCDMA, 4G LTE, FDD, TDD",
+                        "Batteries" :	"1 Lithium ion batteries required. (included)",
+                        "Weight":	"191 Grams",
+                        "Special features":	"Dual SIM, GPS, Music Player, Video Player, Accelerometer, Fingerprint sensor, Proximity sensor"
+                        }],
+                        "Price":"Rs 19000"
+                    }
+                  ],
+                "OnePlus":
+                  [
+                    {
+                      "varient":"OnePlus 6",
+                      "mobileId":"#0001",
+                      "productDescription":[{
+                            "OS":	"Android",
+                            "RAM":"6 GB",
+                            "ROM":"64 GB",
+                            "Display":"5.9'inches ",
+                            "Color":["Black","Grey"],
+                            "Connectivity technologies"	: "2G, GSM, 3G, WCDMA, 4G LTE, FDD, TDD",
+                            "Batteries" :	"1 Lithium ion batteries required. (included)",
+                            "Weight":	"191 Grams",
+                            "Special features":	"Dual SIM, GPS, Music Player, Video Player, Accelerometer, Fingerprint sensor, Proximity sensor"
+                        }],
+                        "Price":"Rs 30000"
+                    },
+                    {
+                      "varient":"OnePlus 5",
+                      "mobileId":"#0002",
+                      "productDescription":[{
+                            "OS":	"Android",
+                            "RAM":"3 GB",
+                            "ROM":"32 GB",
+                            "Display":"5.2'inches ",
+                            "Color":["Black","Blue"],
+                            "Connectivity technologies"	: "2G, GSM, 3G, WCDMA, 4G LTE, FDD, TDD",
+                            "Batteries" :	"1 Lithium ion batteries required. (included)",
+                            "Weight":	"191 Grams",
+                            "Special features":	"Dual SIM, GPS, Music Player, Video Player, Accelerometer, Fingerprint sensor, Proximity sensor"
+                        }],
+                        "Price":"Rs 15000"
+                    },
+                    {
+                      "varient":"OnePlus 5T",
+                      "mobileId":"#0003",
+                      "productDescription":[{
+                        "OS":	"Android",
+                        "RAM":"6 GB",
+                        "ROM":"128 GB",
+                        "Display":"6.0'inches ",
+                        "Color":["Gold"],
+                        "Connectivity technologies"	: "2G, GSM, 3G, WCDMA, 4G LTE, FDD, TDD",
+                        "Batteries" :	"1 Lithium ion batteries required. (included)",
+                        "Weight":	"191 Grams",
+                        "Special features":	"Dual SIM, GPS, Music Player, Video Player, Accelerometer, Fingerprint sensor, Proximity sensor"
+                        }],
+                        "Price":"Rs 25000"
+                    }
+                  ]
+              }
+            }
+    },
+    {
+        "Electronics&Appliances":
+          {
+            "LEDTv":
+              {
+                  "BrandName":
+                  {
+                    "LG":
+                      [
+                        {
+                            "ProductId":"#00L1",
+                            "TechnicalDetails":
+                            {
+                              "Resolution":"720p HD Ready",
+                              "Display Technology":	"LED",
+                              "Screen Size":	"24 Inches",
+                              "Product Dimensions":	"12.3 x 56.1 x 37.6 cm"
+                            },
+                            "Warranty & Support":"1 year warranty provided by the manufacturer from date of purchase"
+                        },
+                        {
+                            "ProductId":"#00L2",
+                            "TechnicalDetails":
+                            {
+                              "Resolution":"1080p HD Ready",
+                              "Display Technology":	"LED",
+                              "Screen Size":	"32 Inches",
+                              "Product Dimensions":	"80 x 15 x 50 cm"
+                            },
+                            "Warranty & Support":"2 year warranty provided by the manufacturer from date of purchase"
+                        }
+                      ],
+                    "Samsung":
+                      [
+                        {
+                            "ProductId":"#00S1",
+                            "TechnicalDetails":
+                            {
+                              "Resolution":"4k Ready",
+                              "Display Technology":	"LED",
+                              "Screen Size":	"43 Inches",
+                              "Product Dimensions":	"107 x 15 x 66 cm"
+                            },
+                            "Warranty & Support":"1 year warranty provided by the manufacturer from date of purchase"
+                        },
+                        {
+                            "ProductId":"#00S2",
+                            "TechnicalDetails":
+                            {
+                              "Resolution":"720p HD Ready",
+                              "Display Technology":	"LED",
+                              "Screen Size":	"40 Inches",
+                              "Product Dimensions":	"18.2 x 90.1 x 62.2 cm"
+                            },
+                            "Warranty & Support":"1 year warranty provided by the manufacturer from date of purchase"
+                        }
+                      ]
+                  }
+              }
+          }
+    }
+  ]
+}
